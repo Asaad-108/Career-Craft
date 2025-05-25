@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fbfef9"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="25dp"
+        android:textColor="#191923"
+        android:textStyle="bold|italic"
+        android:id="@+id/userName"
+        android:layout_margin="5dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description Here will be the brief description regarding the skills"
+        android:textSize="22dp"
+        android:textStyle="italic"
+        android:textColor="#191923"
+        android:layout_below="@id/userName"
+        android:id="@+id/skills"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textColor="#191923"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/skills"
+        android:id="@+id/email"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Location"
+        android:textSize="20dp"
+        android:textColor="#191923"
+        android:id="@+id/loc"
+        android:textStyle="bold|italic">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:text="Phone"
+        android:textColor="#191923"
+        android:textSize="20dp"
+        android:id="@+id/phone"
+        android:textStyle="bold|italic">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Degree"
+        android:textColor="#191923"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/phone"
+        android:id="@+id/degree"
+        >
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareerCraft"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.EditJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ApplyNow"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.JobDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RecruiterLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MyJobs"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RecruiterSearch"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RecruiterDashboard"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.JobSeekerSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RecruiterProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.JobListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RecruiterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MoreInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

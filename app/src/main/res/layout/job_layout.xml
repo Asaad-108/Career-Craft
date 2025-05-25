@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fbfef9"
+    android:padding="10dp"
+
+    android:layout_marginBottom="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="25dp"
+        android:textColor="#191923"
+        android:textStyle="bold|italic"
+        android:id="@+id/name"
+        android:layout_margin="5dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description Here will be the brief description regarding the job"
+        android:textSize="22dp"
+        android:textColor="#191923"
+        android:textStyle="italic"
+        android:layout_below="@id/name"
+        android:id="@+id/desc"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CompanyName"
+        android:textSize="20dp"
+        android:textColor="#191923"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/desc"
+        android:id="@+id/companyName"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Location"
+        android:textSize="20dp"
+        android:textColor="#191923"
+        android:id="@+id/location"
+        android:layout_below="@id/salary"
+        android:textStyle="bold|italic">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:layout_alignParentEnd="true"
+        android:text="Salary"
+        android:textColor="#191923"
+        android:textSize="20dp"
+        android:id="@+id/salary"
+        android:textStyle="bold|italic">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Type"
+        android:textSize="20dp"
+        android:textColor="#191923"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/companyName"
+        android:id="@+id/jobType"
+        >
+    </TextView>
+
+</RelativeLayout>

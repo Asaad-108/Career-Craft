@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605956707695",
+    "project_id": "careercraft-5920b",
+    "storage_bucket": "careercraft-5920b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605956707695:android:996373a72ab06a1909849a",
+        "android_client_info": {
+          "package_name": "com.example.careercraft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLOT54xT0woogf6h5RhZ-78p_shOz78V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
